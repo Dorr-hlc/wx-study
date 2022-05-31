@@ -1,0 +1,13 @@
+<view class="container">
+
+    <view class="list">
+        <view class="add" bindtap="goadd">
+            <image src="/images/icons/icon-add.png"></image>
+            <text>添加谱子</text>
+        </view>
+        <view class="item" wx:for="{{musicList}}" wx:key="item">
+            <image src="{{item.cover}}" mode="scaleToFill"></image>
+            <text>{{item.name}}</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,100 @@
+/* pages/add/add.wxss */
+
+
+.chooseimg {
+    border-bottom: 15rpx solid #beb8b8;
+    padding: 15rpx;
+}
+
+.choose-tit {
+    display: block;
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.tip {
+    font-size: 28rpx;
+    color: #beb8b8;
+    font-weight: 400;
+}
+
+.choose-box {
+    display: inline-block;
+    max-width: 200rpx;
+    text-align: center;
+    background: #f7f3f3;
+    padding: 20rpx;
+    margin: 20rpx 0;
+}
+
+.choose-box image {
+    width: 64rpx;
+    height: 64rpx;
+}
+
+.choose-box text {
+    display: block;
+    font-size: 32rpx;
+    color: #beb8b8;
+}
+
+.infobox {
+    padding: 30rpx 15rpx;
+}
+
+.ipttxt {
+    display: flex;
+    justify-content: space-between;
+    color: #beb8b8;
+    font-size: 32rpx;
+    margin: 30rpx 0;
+}
+
+input {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+input::placeholder {
+    color: #beb8b8;
+}
+
+.upload {
+    width: 500rpx;
+    height: 80rpx;
+    margin: auto;
+    text-align: center;
+    background: rgb(155, 156, 154);
+    border-radius: 20rpx;
+    color: #f7f3f3;
+    line-height: 80rpx;
+}
+
+.preview {
+    display: inline-block;
+    margin: 20rpx 20rpx 20rpx 0;
+}
+
+.preview image {
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-between;
+    height: 100rpx;
+    line-height: 100rpx;
+}
+
+.cover image {
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+}
+
+.cover input {
+    width: 60rpx;
+}

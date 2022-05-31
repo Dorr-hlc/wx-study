@@ -1,0 +1,58 @@
+page {
+    background-color: #faf8f8;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 50rpx 15rpx 80rpx;
+    text-align: center;
+    background: rgb(68, 151, 245);
+}
+
+.tx {
+    width: 132rpx;
+    height: 132rpx;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.nickName {
+    font-size: 32rpx;
+    color: #ffffff;
+    margin-top: 20rpx;
+}
+
+.bot .mine-qp,
+.bot .mine-sc {
+    display: flex;
+    background-color: #ffffff;
+    margin: 30rpx 0;
+    font-size: 34rpx;
+    align-items: center;
+    padding: 30rpx;
+}
+.sj::after{
+    position: absolute;
+    right: 30rpx;
+    content: "";
+    display: inline-block;
+    width: 20rpx;
+    height: 20rpx;
+    border: 2rpx solid rgb(17, 16, 16);
+    border-left-width: 0;
+    border-bottom-width: 0;
+    transform: matrix(0.71,0.71,-0.71,0.71,0,0);
+}
+
+
+.icons {
+    width: 60rpx;
+    height: 60rpx;
+    margin-right: 20rpx;
+}
+
+.bot .mine-sc {
+    background-color: #ffffff;
+    margin: 30rpx 0;
+}

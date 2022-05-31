@@ -1,0 +1,7 @@
+<view class="login-container">
+    <block>
+        <button class="btn-login" bindtap="login">一键登录</button>
+        <text class="tip-text">登录后尽享更多权益</text>
+    </block>
+
+</view>

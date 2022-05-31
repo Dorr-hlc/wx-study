@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="header">
+        <image src="{{userinfo.avatarUrl}}" class="tx" alt="" srcset="" />
+        <text class="nickName">{{userinfo.nickName}}</text>
+    </view>
+    <view class="bot">
+        <view class="mine-qp sj" bindtap="gocharts">
+            <image class="icons" src="/images/icons/mine-qp.png"></image> <text>我的曲谱</text>
+        </view>
+        <view class="mine-sc sj">
+            <image src="/images/icons/mine-sq.png" class="icons"></image> <text>我的收藏</text>
+        </view>
+    </view>
+</view>
