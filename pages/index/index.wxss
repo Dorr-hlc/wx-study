@@ -41,5 +41,15 @@
     display: flex;
     flex-direction: column;
     font-size: 32rpx;
-   align-items: center;
+    align-items: center;
+}
+
+.list {
+    text-align: center;
+    padding: 0 15rpx;
+}
+
+.list text {
+    font-size: 40rpx;
+    font-weight: bold;
 }

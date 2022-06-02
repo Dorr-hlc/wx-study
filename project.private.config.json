@@ -1,5 +1,5 @@
 {
-    "projectname": "blog",
+    "projectname": "wx-study",
     "setting": {
         "compileHotReLoad": false,
         "urlCheck": false
@@ -25,6 +25,27 @@
                 {
                     "name": "",
                     "pathName": "pages/charts/charts",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/charts/charts",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/video/video",
                     "query": "",
                     "launchMode": "default",
                     "scene": null

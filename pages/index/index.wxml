@@ -1,27 +1,36 @@
 <view class="container">
-	<swiper  indicator-dots="true" indicator-color="#FFFFFF" current="{{swiper_curPage}}" autoplay="true" circular="true" class="swiper">
-		<block wx:for="{{imgList}}"  wx:key="id">
-			<swiper-item class='swiper_item'>
-				<image src='{{item.src}}' class="swiper_imge"  mode='scaleToFill'></image>
-			</swiper-item>
-		</block>
-	</swiper>
- <view class="nav">
-     <view class="tit">
-         <image src="/images/icons/nav-1.png" mode="scaleToFill"></image>
-         <text>弹奏视频</text>
-     </view>
-     <view class="tit">
-         <image src="/images/icons/nav-2.png" mode="scaleToFill"></image>
-         <text>曲谱分类</text>
-     </view>
-     <view class="tit">
-         <image src="/images/icons/nav-3.png" mode="scaleToFill"></image>
-         <text>我的曲谱</text>
-     </view>
-     <view class="tit">
-         <image src="/images/icons/nav-4.png" mode="scaleToFill"></image>
-         <text>发布曲谱</text>
-     </view>
- </view>
+    <swiper indicator-dots="true" indicator-color="#FFFFFF" current="{{swiper_curPage}}" autoplay="true" circular="true" class="swiper">
+        <block wx:for="{{imgList}}" wx:key="id">
+            <swiper-item class='swiper_item'>
+                <image src='{{item.src}}' class="swiper_imge" mode='scaleToFill'></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="nav">
+        <view class="tit">
+            <image src="/images/icons/nav-1.png" mode="scaleToFill" bindtap="govideo"></image>
+            <text>弹奏视频</text>
+        </view>
+        <view class="tit">
+            <image src="/images/icons/nav-2.png" mode="scaleToFill" bindtap="gotype"></image>
+            <text>曲谱分类</text>
+        </view>
+        <view class="tit">
+            <image src="/images/icons/nav-3.png" mode="scaleToFill" bindtap="gocharts"></image>
+            <text>我的曲谱</text>
+        </view>
+        <view class="tit">
+            <image src="/images/icons/nav-4.png" mode="scaleToFill" bindtap="goadd"></image>
+            <text>发布曲谱</text>
+        </view>
+    </view>
+    <view class="list">
+        <text>推荐曲谱</text>
+
+        <view class="imgbox">
+            <view class="item">
+                <image src></image>
+            </view>
+        </view>
+    </view>
 </view>

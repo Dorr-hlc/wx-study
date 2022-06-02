@@ -1,48 +1,20 @@
-// pages/charts/charts.js
+// pages/type/type.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-       musicList:[]
+
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-       this.getList()
-    },
-    goadd() {
-        wx.switchTab({
-            url: '/pages/add/add',
-        })
-    },
-    getList(){
-        wx.showLoading({
-            title: '加载中',
-          }),
-        wx.cloud.callFunction({
-            name:'getList',
-            data:{
-                _openid:wx.getStorageSync('openid')
-            },
 
-            success:(res)=>{
-                this.setData({
-                    musicList:res.result.data
-                })
-                wx.hideLoading()
-            },
-            fail:res=> {
-                wx.showToast({
-                  title: '获取失败',
-                  icon:'error'
-                })
-            }
-        })
     },
+
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

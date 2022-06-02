@@ -1,0 +1,5 @@
+/* pages/video/video.wxss */
+.container{
+    display: flex;
+    align-items: center;
+}

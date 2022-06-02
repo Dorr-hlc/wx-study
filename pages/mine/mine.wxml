@@ -7,7 +7,7 @@
         <view class="mine-qp sj" bindtap="gocharts">
             <image class="icons" src="/images/icons/mine-qp.png"></image> <text>我的曲谱</text>
         </view>
-        <view class="mine-sc sj">
+        <view class="mine-sc sj" bindtap="gocollection">
             <image src="/images/icons/mine-sq.png" class="icons"></image> <text>我的收藏</text>
         </view>
     </view>
